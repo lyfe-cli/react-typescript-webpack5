@@ -39,10 +39,9 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Supplier-Charts',
+      title: 'LYFE-CLI',
       template: 'index.html',
       filename: 'index.html',
-      favicon: `${paths.appSrc}/assets/images/nissan.ico`,
       buildTime: `${formatTime(new Date())}`
     }),
     new WebpackBar(),
